@@ -1,6 +1,6 @@
-"""app_yourname.py - Project script.
+"""app_tmims71.py - Data Analytics Automation Project.
 
-Author: Your Name or Alias
+Author: Tammy Mims
 Date: 2026-01
 
 Practice key Python skills:
@@ -18,17 +18,6 @@ Practice key Python skills:
 
 OBS:
   This is your file to practice and customize.
-  Find the TODO comments, and as you complete each task, remove the TODO note.
-  TODO: Make all your files start with your name or alias in the filename
-
-TODO: Change the Author line of the docstring above to your name or alias.
-
-TODO: RENAME this file from app_yourname.py to something
-      that includes your name or alias, e.g., app_stellar_analytics.py.
-
-TODO: Update the opening line of the docstring above to match the new file name.
-
-TODO: Update the associated `uv run python` command in the README.md file.
 """
 
 
@@ -112,7 +101,7 @@ def create_files_from_numeric_range() -> None:
     # For each number in the range (add one to the end to be INCLUSIVE)
     for quarter_number in range(start_quarter, end_quarter + 1):
         # Define a filename that starts with my name and uses the quarter number
-        filename: str = f"case_quarter_{quarter_number}.txt"
+        filename: str = f"tmims71_quarter_{quarter_number}.txt"
         # Define the path for my new file
         path: Path = ROOT_DIR / filename
         # Define some content to put in the new file
@@ -146,7 +135,7 @@ def create_files_from_list() -> None:
     # For each pet name in the pet list (must have a colon and indentation matters!)
     for pet_name in pet_list:
         # Define a filename that starts with my name and uses this pet name
-        filename: str = f"case_{pet_name}.txt"
+        filename: str = f"tmims71_{pet_name}.txt"
         # Define the path for my new file
         path: Path = ROOT_DIR / filename
         # Define some content to put in the new file
@@ -189,7 +178,7 @@ def create_files_using_list_comprehension() -> None:
     # For each favorite name in the new favorite list
     for favorite in favorite_list:
         # Define a file name that starts with my name and uses this favorite name
-        filename: str = f"case_{favorite}.txt"
+        filename: str = f"tmims71_{favorite}.txt"
         # Define the path for my new file
         path: Path = ROOT_DIR / filename
         # Define some content to put in the new file
@@ -231,7 +220,7 @@ def create_files_periodically() -> None:
     while i <= count:
         # Define a filename that starts with my name and uses the counter
         # Use 02d formatting for leading zeros and two digits
-        filename: str = f"case_{i:02d}.txt"
+        filename: str = f"tmims71_{i:02d}.txt"
         # Define the path for my new file
         path: Path = ROOT_DIR / filename
         # Define some content to put in the new file
