@@ -74,11 +74,7 @@ def write_text_file(path: Path, content: str) -> None:
 
 
 def create_files_from_numeric_range() -> None:
-    # TODO: Create a file for each year in the range 2023 to 2026 inclusive.
-    # TODO: Change the docstring, variable names, code, and log messages accordingly.
-    # TODO: Change the filename format to start with your name or alias.
-    # TODO: Customize the content of each created file.
-    """Create one file per quarter for a given inclusive quarter range.
+    """Create one file per year for a given inclusive year range.
 
     Arguments: None
 
@@ -88,37 +84,33 @@ def create_files_from_numeric_range() -> None:
     LOG.info("START FUNCTION 1: create_files_from_numeric_range()")
 
     # Define a variable for the start
-    start_quarter: int = 1
+    start_year: int = 2023
     # Define a variable for the end
-    end_quarter: int = 4
+    end_year: int = 2026
 
     # LOG the starting name and value
-    LOG.info(f"Starting quarter: {start_quarter}")
+    LOG.info(f"Starting year: {start_year}")
 
     # LOG the ending name and value
-    LOG.info(f"Ending quarter: {end_quarter}")
+    LOG.info(f"Ending year: {end_year}")
 
     # For each number in the range (add one to the end to be INCLUSIVE)
-    for quarter_number in range(start_quarter, end_quarter + 1):
-        # Define a filename that starts with my name and uses the quarter number
-        filename: str = f"tmims71_quarter_{quarter_number}.txt"
+    for calendar_year in range(start_year, end_year + 1):
+        # Define a filename that starts with my name and uses the year number
+        filename: str = f"tmims71_year_{calendar_year}.txt"
         # Define the path for my new file
         path: Path = ROOT_DIR / filename
         # Define some content to put in the new file
-        content: str = f"Here is my report for quarter number: {quarter_number}\n"
+        content: str = f"Here is my report for calendar year: {calendar_year}\n"
         # Call the provided helper function to write the file and log it
         write_text_file(path, content)
 
 
-# === DECLARE REPETITION FUNCTION 2: FOR ITEM IN LIST ===
+# === DECLARE REPETITION FUNCTION 2: FOR ITEM IN LIST ==
 
 
 def create_files_from_list() -> None:
-    # TODO: Create a file for each item in a list (do not use pets).
-    # TODO: Change the docstring, variable names, code, and log messages accordingly.
-    # TODO: Change the filename format to start with your name or alias.
-    # TODO: Customize the content of each created file.
-    """Create files based on a list of pet names.
+    """Create files based on a list of subjects taught.
 
     Arguments: None
     Returns:  None
@@ -126,20 +118,25 @@ def create_files_from_list() -> None:
     # Log the start of this function
     LOG.info("START FUNCTION 2: create_files_from_list()")
 
-    # Define a pet list
-    pet_list: list[str] = ["dog", "cat", "fish"]
+    # Define a variable for the subject taught list
+    subject_taught_list: list[str] = [
+        "Algebra III",
+        "Precalculus",
+        "AP Calculus",
+        "Trigonometry",
+    ]
 
-    # Log my pet list
-    LOG.info(f"Pet list ={pet_list}")
+    # Log my subject taught list
+    LOG.info(f"Subject taught list = {subject_taught_list}")
 
-    # For each pet name in the pet list (must have a colon and indentation matters!)
-    for pet_name in pet_list:
-        # Define a filename that starts with my name and uses this pet name
-        filename: str = f"tmims71_{pet_name}.txt"
+    # For each subject taught in the subject taught list (must have a colon and indentation matters!)
+    for subject_taught in subject_taught_list:
+        # Define a filename that starts with my name and uses this subject taught name
+        filename: str = f"tmims71_{subject_taught.lower().replace(' ', '_')}.txt"
         # Define the path for my new file
         path: Path = ROOT_DIR / filename
         # Define some content to put in the new file
-        content: str = f"Here is my pet data for pet: '{pet_name}'\n"
+        content: str = f"Here is my subject taught data for: '{subject_taught}'\n"
         # Call the provided helper function to write the file and log it
         write_text_file(path, content)
 
@@ -148,11 +145,7 @@ def create_files_from_list() -> None:
 
 
 def create_files_using_list_comprehension() -> None:
-    # TODO: Create a file for each item in a new list you transformed USING A LIST COMPREHENSION (do not use pets).
-    # TODO: Change the docstring, variable names, code, and log messages accordingly.
-    # TODO: Change the filename format to start with your name or alias.
-    # TODO: Customize the content of each created file.
-    """Create files by transforming names using list comprehension.
+    """Create files by transforming subject names into favorites using list comprehension.
 
     Arguments: None
 
@@ -164,16 +157,23 @@ def create_files_using_list_comprehension() -> None:
     LOG.info("WHY: They are super compact list transformations.")
     LOG.info("Read it as <do this logic> FOR each <item> IN <list>.")
 
-    # Define my pet list
-    pet_list: list[str] = ["dog", "cat", "fish"]
-    # Log my pet list
-    LOG.info(f"Pet list ={pet_list}")
+    # Define my subject taught list
+    subject_taught_list: list[str] = [
+        "Algebra III",
+        "Precalculus",
+        "AP Calculus",
+        "Trigonometry",
+    ]
+    # Log my subject taught list
+    LOG.info(f"Subject taught list = {subject_taught_list}")
 
     # Define a prefix (or any other transformation logic)
     prefix = "favorite_"
 
-    # Use list comprehension syntax to create a new list from the pet list
-    favorite_list: list[str] = [f"{prefix}{name}" for name in pet_list]
+    # Use list comprehension syntax to create a new list from the subject list
+    favorite_list: list[str] = [
+        f"{prefix}{name.lower().replace(' ', '_')}" for name in subject_taught_list
+    ]
 
     # For each favorite name in the new favorite list
     for favorite in favorite_list:
@@ -191,9 +191,6 @@ def create_files_using_list_comprehension() -> None:
 
 
 def create_files_periodically() -> None:
-    # TODO: Create at least 5 files and less than 25 files with a delay between each creation.
-    # TODO: Change the filename format to start with your name or alias.
-    # TODO: Customize the content of each created file.
     """Create a small number of files with a delay between each creation.
 
     Arguments: None
@@ -206,7 +203,7 @@ def create_files_periodically() -> None:
     # Define wait_seconds: Seconds to wait between file writes.
     wait_seconds: int = 1
     # Define count: How many files to create.
-    count: int = 3
+    count: int = 10
 
     # Log the wait_seconds
     LOG.info(f"Waiting seconds between files: {wait_seconds}")
@@ -218,6 +215,24 @@ def create_files_periodically() -> None:
 
     # While the counter is less than or equal to the count
     while i <= count:
+        # Define a filename that starts with my name and uses the counter
+        # Use 02d formatting for leading zeros and two digits
+        filename: str = f"tmims71_{i:02d}.txt"
+        # Define the path for my new file
+        path: Path = ROOT_DIR / filename
+        # Define some content to put in the new file
+        content: str = f"Periodic file creation - file number: {i}\n"
+        # Call the provided helper function to write the file and log it
+        write_text_file(path, content)
+
+        # Log the wait time
+        LOG.info(f"Waiting {wait_seconds} seconds...")
+
+        # Call the time.sleep() function to wait for the given number of wait_seconds
+        time.sleep(wait_seconds)
+        # IMPORTANT: Remember to increment the counter variable to avoid an infinite loop!
+        # Set the value of i to itself plus one (this is the same as i = i + 1)
+        i += 1
         # Define a filename that starts with my name and uses the counter
         # Use 02d formatting for leading zeros and two digits
         filename: str = f"tmims71_{i:02d}.txt"
