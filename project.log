@@ -214,3 +214,283 @@
 2026-01-21 14:25:46 | INFO | P02 | WROTE file: case_03.txt
 2026-01-21 14:25:46 | INFO | P02 | Waiting 1 seconds...
 2026-01-21 14:25:47 | INFO | P02 | END main()
+2026-01-21 15:01:28 | INFO | P02 | === RUN START ===
+2026-01-21 15:01:28 | INFO | P02 | project=Automation: Creating Files with Repetition Patterns
+2026-01-21 15:01:28 | INFO | P02 | repo_dir=datafun_02_automation
+2026-01-21 15:01:28 | INFO | P02 | python=3.14.2
+2026-01-21 15:01:28 | INFO | P02 | os=Windows 11
+2026-01-21 15:01:28 | INFO | P02 | shell=powershell
+2026-01-21 15:01:28 | INFO | P02 | cwd=.
+2026-01-21 15:01:28 | INFO | P02 | github_actions=False
+2026-01-21 15:01:28 | INFO | P02 | START main()
+2026-01-21 15:01:28 | INFO | P02 | START FUNCTION 1: create_files_from_numeric_range()
+2026-01-21 15:01:28 | INFO | P02 | Starting year: 2023
+2026-01-21 15:01:28 | INFO | P02 | Ending year: 2026
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_year_2023.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_year_2024.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_year_2025.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_year_2026.txt
+2026-01-21 15:01:28 | INFO | P02 | START FUNCTION 2: create_files_from_list()
+2026-01-21 15:01:28 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_algebra_iii.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_precalculus.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_ap_calculus.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_trigonometry.txt
+2026-01-21 15:01:28 | INFO | P02 | START FUNCTION 3: create_files_using_list_comprehension()
+2026-01-21 15:01:28 | INFO | P02 | WHY: Use list comprehension to TRANSFORM a list into a new list.
+2026-01-21 15:01:28 | INFO | P02 | WHY: They are super compact list transformations.
+2026-01-21 15:01:28 | INFO | P02 | Read it as <do this logic> FOR each <item> IN <list>.
+2026-01-21 15:01:28 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_favorite_algebra_iii.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_favorite_precalculus.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_favorite_ap_calculus.txt
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_favorite_trigonometry.txt
+2026-01-21 15:01:28 | INFO | P02 | START FUNCTION 4: create_files_periodically()
+2026-01-21 15:01:28 | INFO | P02 | WHY: Use while loop for REPETITIVE tasks with a WAIT or DELAY.
+2026-01-21 15:01:28 | INFO | P02 | Waiting seconds between files: 1
+2026-01-21 15:01:28 | INFO | P02 | Number of files to create: 10
+2026-01-21 15:01:28 | INFO | P02 | WROTE file: tmims71_01.txt
+2026-01-21 15:01:28 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:29 | INFO | P02 | WROTE file: tmims71_02.txt
+2026-01-21 15:01:29 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:30 | INFO | P02 | WROTE file: tmims71_03.txt
+2026-01-21 15:01:30 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:31 | INFO | P02 | WROTE file: tmims71_04.txt
+2026-01-21 15:01:31 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:32 | INFO | P02 | WROTE file: tmims71_05.txt
+2026-01-21 15:01:32 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:33 | INFO | P02 | WROTE file: tmims71_06.txt
+2026-01-21 15:01:33 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:34 | INFO | P02 | WROTE file: tmims71_07.txt
+2026-01-21 15:01:34 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:35 | INFO | P02 | WROTE file: tmims71_08.txt
+2026-01-21 15:01:35 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:36 | INFO | P02 | WROTE file: tmims71_09.txt
+2026-01-21 15:01:36 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:37 | INFO | P02 | WROTE file: tmims71_10.txt
+2026-01-21 15:01:37 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:01:38 | INFO | P02 | END main()
+2026-01-21 15:11:31 | INFO | P02 | === RUN START ===
+2026-01-21 15:11:31 | INFO | P02 | project=Automation: Creating Files with Repetition Patterns
+2026-01-21 15:11:31 | INFO | P02 | repo_dir=datafun_02_automation
+2026-01-21 15:11:31 | INFO | P02 | python=3.14.2
+2026-01-21 15:11:31 | INFO | P02 | os=Windows 11
+2026-01-21 15:11:31 | INFO | P02 | shell=powershell
+2026-01-21 15:11:31 | INFO | P02 | cwd=.
+2026-01-21 15:11:31 | INFO | P02 | github_actions=False
+2026-01-21 15:11:31 | INFO | P02 | START main()
+2026-01-21 15:11:31 | INFO | P02 | START FUNCTION 1: create_files_from_numeric_range()
+2026-01-21 15:11:31 | INFO | P02 | Starting year: 2023
+2026-01-21 15:11:31 | INFO | P02 | Ending year: 2026
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_year_2023.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_year_2024.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_year_2025.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_year_2026.txt
+2026-01-21 15:11:31 | INFO | P02 | START FUNCTION 2: create_files_from_list()
+2026-01-21 15:11:31 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_algebra_iii.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_precalculus.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_ap_calculus.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_trigonometry.txt
+2026-01-21 15:11:31 | INFO | P02 | START FUNCTION 3: create_files_using_list_comprehension()
+2026-01-21 15:11:31 | INFO | P02 | WHY: Use list comprehension to TRANSFORM a list into a new list.
+2026-01-21 15:11:31 | INFO | P02 | WHY: They are super compact list transformations.
+2026-01-21 15:11:31 | INFO | P02 | Read it as <do this logic> FOR each <item> IN <list>.
+2026-01-21 15:11:31 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_favorite_algebra_iii.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_favorite_precalculus.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_favorite_ap_calculus.txt
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_favorite_trigonometry.txt
+2026-01-21 15:11:31 | INFO | P02 | START FUNCTION 4: create_files_periodically()
+2026-01-21 15:11:31 | INFO | P02 | WHY: Use while loop for REPETITIVE tasks with a WAIT or DELAY.
+2026-01-21 15:11:31 | INFO | P02 | Waiting seconds between files: 1
+2026-01-21 15:11:31 | INFO | P02 | Number of files to create: 10
+2026-01-21 15:11:31 | INFO | P02 | WROTE file: tmims71_01.txt
+2026-01-21 15:11:31 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:32 | INFO | P02 | WROTE file: tmims71_02.txt
+2026-01-21 15:11:32 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:33 | INFO | P02 | WROTE file: tmims71_03.txt
+2026-01-21 15:11:33 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:34 | INFO | P02 | WROTE file: tmims71_04.txt
+2026-01-21 15:11:34 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:35 | INFO | P02 | WROTE file: tmims71_05.txt
+2026-01-21 15:11:35 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:36 | INFO | P02 | WROTE file: tmims71_06.txt
+2026-01-21 15:11:36 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:37 | INFO | P02 | WROTE file: tmims71_07.txt
+2026-01-21 15:11:37 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:38 | INFO | P02 | WROTE file: tmims71_08.txt
+2026-01-21 15:11:38 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:39 | INFO | P02 | WROTE file: tmims71_09.txt
+2026-01-21 15:11:39 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:40 | INFO | P02 | WROTE file: tmims71_10.txt
+2026-01-21 15:11:40 | INFO | P02 | Waiting 1 seconds...
+2026-01-21 15:11:41 | INFO | P02 | END main()
+2026-01-23 14:23:48 | INFO | P02 | === RUN START ===
+2026-01-23 14:23:48 | INFO | P02 | project=Automation: Creating Files with Repetition Patterns
+2026-01-23 14:23:48 | INFO | P02 | repo_dir=datafun_02_automation
+2026-01-23 14:23:48 | INFO | P02 | python=3.14.2
+2026-01-23 14:23:48 | INFO | P02 | os=Windows 11
+2026-01-23 14:23:48 | INFO | P02 | shell=powershell
+2026-01-23 14:23:48 | INFO | P02 | cwd=.
+2026-01-23 14:23:48 | INFO | P02 | github_actions=False
+2026-01-23 14:23:48 | INFO | P02 | START main()
+2026-01-23 14:23:48 | INFO | P02 | START FUNCTION 1: create_files_from_numeric_range()
+2026-01-23 14:23:48 | INFO | P02 | Starting year: 2023
+2026-01-23 14:23:48 | INFO | P02 | Ending year: 2026
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_year_2023.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_year_2024.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_year_2025.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_year_2026.txt
+2026-01-23 14:23:48 | INFO | P02 | START FUNCTION 2: create_files_from_list()
+2026-01-23 14:23:48 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_algebra_iii.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_precalculus.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_ap_calculus.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_trigonometry.txt
+2026-01-23 14:23:48 | INFO | P02 | START FUNCTION 3: create_files_using_list_comprehension()
+2026-01-23 14:23:48 | INFO | P02 | WHY: Use list comprehension to TRANSFORM a list into a new list.
+2026-01-23 14:23:48 | INFO | P02 | WHY: They are super compact list transformations.
+2026-01-23 14:23:48 | INFO | P02 | Read it as <do this logic> FOR each <item> IN <list>.
+2026-01-23 14:23:48 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_favorite_algebra_iii.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_favorite_precalculus.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_favorite_ap_calculus.txt
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_favorite_trigonometry.txt
+2026-01-23 14:23:48 | INFO | P02 | START FUNCTION 4: create_files_periodically()
+2026-01-23 14:23:48 | INFO | P02 | WHY: Use while loop for REPETITIVE tasks with a WAIT or DELAY.
+2026-01-23 14:23:48 | INFO | P02 | Waiting seconds between files: 1
+2026-01-23 14:23:48 | INFO | P02 | Number of files to create: 10
+2026-01-23 14:23:48 | INFO | P02 | WROTE file: tmims71_01.txt
+2026-01-23 14:23:48 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:49 | INFO | P02 | WROTE file: tmims71_02.txt
+2026-01-23 14:23:49 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:50 | INFO | P02 | WROTE file: tmims71_03.txt
+2026-01-23 14:23:50 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:51 | INFO | P02 | WROTE file: tmims71_04.txt
+2026-01-23 14:23:51 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:52 | INFO | P02 | WROTE file: tmims71_05.txt
+2026-01-23 14:23:52 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:53 | INFO | P02 | WROTE file: tmims71_06.txt
+2026-01-23 14:23:53 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:54 | INFO | P02 | WROTE file: tmims71_07.txt
+2026-01-23 14:23:54 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:55 | INFO | P02 | WROTE file: tmims71_08.txt
+2026-01-23 14:23:55 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:56 | INFO | P02 | WROTE file: tmims71_09.txt
+2026-01-23 14:23:56 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:57 | INFO | P02 | WROTE file: tmims71_10.txt
+2026-01-23 14:23:57 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:23:58 | INFO | P02 | END main()
+2026-01-23 14:27:14 | INFO | P02 | === RUN START ===
+2026-01-23 14:27:14 | INFO | P02 | project=Automation: Creating Files with Repetition Patterns
+2026-01-23 14:27:14 | INFO | P02 | repo_dir=datafun_02_automation
+2026-01-23 14:27:14 | INFO | P02 | python=3.14.2
+2026-01-23 14:27:14 | INFO | P02 | os=Windows 11
+2026-01-23 14:27:14 | INFO | P02 | shell=powershell
+2026-01-23 14:27:14 | INFO | P02 | cwd=.
+2026-01-23 14:27:14 | INFO | P02 | github_actions=False
+2026-01-23 14:27:14 | INFO | P02 | START main()
+2026-01-23 14:27:14 | INFO | P02 | START FUNCTION 1: create_files_from_numeric_range()
+2026-01-23 14:27:14 | INFO | P02 | Starting year: 2023
+2026-01-23 14:27:14 | INFO | P02 | Ending year: 2026
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_year_2023.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_year_2024.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_year_2025.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_year_2026.txt
+2026-01-23 14:27:14 | INFO | P02 | START FUNCTION 2: create_files_from_list()
+2026-01-23 14:27:14 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_algebra_iii.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_precalculus.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_ap_calculus.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_trigonometry.txt
+2026-01-23 14:27:14 | INFO | P02 | START FUNCTION 3: create_files_using_list_comprehension()
+2026-01-23 14:27:14 | INFO | P02 | WHY: Use list comprehension to TRANSFORM a list into a new list.
+2026-01-23 14:27:14 | INFO | P02 | WHY: They are super compact list transformations.
+2026-01-23 14:27:14 | INFO | P02 | Read it as <do this logic> FOR each <item> IN <list>.
+2026-01-23 14:27:14 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_favorite_algebra_iii.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_favorite_precalculus.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_favorite_ap_calculus.txt
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_favorite_trigonometry.txt
+2026-01-23 14:27:14 | INFO | P02 | START FUNCTION 4: create_files_periodically()
+2026-01-23 14:27:14 | INFO | P02 | WHY: Use while loop for REPETITIVE tasks with a WAIT or DELAY.
+2026-01-23 14:27:14 | INFO | P02 | Waiting seconds between files: 1
+2026-01-23 14:27:14 | INFO | P02 | Number of files to create: 10
+2026-01-23 14:27:14 | INFO | P02 | WROTE file: tmims71_01.txt
+2026-01-23 14:27:14 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:15 | INFO | P02 | WROTE file: tmims71_02.txt
+2026-01-23 14:27:15 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:16 | INFO | P02 | WROTE file: tmims71_03.txt
+2026-01-23 14:27:16 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:17 | INFO | P02 | WROTE file: tmims71_04.txt
+2026-01-23 14:27:17 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:18 | INFO | P02 | WROTE file: tmims71_05.txt
+2026-01-23 14:27:18 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:19 | INFO | P02 | WROTE file: tmims71_06.txt
+2026-01-23 14:27:19 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:20 | INFO | P02 | WROTE file: tmims71_07.txt
+2026-01-23 14:27:20 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:21 | INFO | P02 | WROTE file: tmims71_08.txt
+2026-01-23 14:27:21 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:22 | INFO | P02 | WROTE file: tmims71_09.txt
+2026-01-23 14:27:22 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:23 | INFO | P02 | WROTE file: tmims71_10.txt
+2026-01-23 14:27:23 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:27:24 | INFO | P02 | END main()
+2026-01-23 14:37:53 | INFO | P02 | === RUN START ===
+2026-01-23 14:37:53 | INFO | P02 | project=Automation: Creating Files with Repetition Patterns
+2026-01-23 14:37:53 | INFO | P02 | repo_dir=datafun_02_automation
+2026-01-23 14:37:53 | INFO | P02 | python=3.14.2
+2026-01-23 14:37:53 | INFO | P02 | os=Windows 11
+2026-01-23 14:37:53 | INFO | P02 | shell=powershell
+2026-01-23 14:37:53 | INFO | P02 | cwd=.
+2026-01-23 14:37:53 | INFO | P02 | github_actions=False
+2026-01-23 14:37:53 | INFO | P02 | START main()
+2026-01-23 14:37:53 | INFO | P02 | START FUNCTION 1: create_files_from_numeric_range()
+2026-01-23 14:37:53 | INFO | P02 | Starting year: 2023
+2026-01-23 14:37:53 | INFO | P02 | Ending year: 2026
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_year_2023.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_year_2024.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_year_2025.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_year_2026.txt
+2026-01-23 14:37:53 | INFO | P02 | START FUNCTION 2: create_files_from_list()
+2026-01-23 14:37:53 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_algebra_iii.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_precalculus.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_ap_calculus.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_trigonometry.txt
+2026-01-23 14:37:53 | INFO | P02 | START FUNCTION 3: create_files_using_list_comprehension()
+2026-01-23 14:37:53 | INFO | P02 | WHY: Use list comprehension to TRANSFORM a list into a new list.
+2026-01-23 14:37:53 | INFO | P02 | WHY: They are super compact list transformations.
+2026-01-23 14:37:53 | INFO | P02 | Read it as <do this logic> FOR each <item> IN <list>.
+2026-01-23 14:37:53 | INFO | P02 | Subject taught list = ['Algebra III', 'Precalculus', 'AP Calculus', 'Trigonometry']
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_favorite_algebra_iii.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_favorite_precalculus.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_favorite_ap_calculus.txt
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_favorite_trigonometry.txt
+2026-01-23 14:37:53 | INFO | P02 | START FUNCTION 4: create_files_periodically()
+2026-01-23 14:37:53 | INFO | P02 | WHY: Use while loop for REPETITIVE tasks with a WAIT or DELAY.
+2026-01-23 14:37:53 | INFO | P02 | Waiting seconds between files: 1
+2026-01-23 14:37:53 | INFO | P02 | Number of files to create: 10
+2026-01-23 14:37:53 | INFO | P02 | WROTE file: tmims71_01.txt
+2026-01-23 14:37:53 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:37:54 | INFO | P02 | WROTE file: tmims71_02.txt
+2026-01-23 14:37:54 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:37:55 | INFO | P02 | WROTE file: tmims71_03.txt
+2026-01-23 14:37:55 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:37:56 | INFO | P02 | WROTE file: tmims71_04.txt
+2026-01-23 14:37:56 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:37:57 | INFO | P02 | WROTE file: tmims71_05.txt
+2026-01-23 14:37:57 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:37:58 | INFO | P02 | WROTE file: tmims71_06.txt
+2026-01-23 14:37:58 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:37:59 | INFO | P02 | WROTE file: tmims71_07.txt
+2026-01-23 14:37:59 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:38:00 | INFO | P02 | WROTE file: tmims71_08.txt
+2026-01-23 14:38:00 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:38:01 | INFO | P02 | WROTE file: tmims71_09.txt
+2026-01-23 14:38:01 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:38:02 | INFO | P02 | WROTE file: tmims71_10.txt
+2026-01-23 14:38:02 | INFO | P02 | Waiting 1 seconds...
+2026-01-23 14:38:03 | INFO | P02 | END main()

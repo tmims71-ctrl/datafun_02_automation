@@ -42,6 +42,7 @@ LOG: logging.Logger = get_logger("P02", level="DEBUG")
 # Use `type hints` with Final for constants.
 
 ROOT_DIR: Final[Path] = Path.cwd()
+DATA_DIR: Final[Path] = ROOT_DIR / "data" / "raw"
 
 REGIONS: Final[list[str]] = [
     "North America",
@@ -99,7 +100,7 @@ def create_files_from_numeric_range() -> None:
         # Define a filename that starts with my name and uses the year number
         filename: str = f"tmims71_year_{calendar_year}.txt"
         # Define the path for my new file
-        path: Path = ROOT_DIR / filename
+        path: Path = DATA_DIR / filename
         # Define some content to put in the new file
         content: str = f"Here is my report for calendar year: {calendar_year}\n"
         # Call the provided helper function to write the file and log it
@@ -134,7 +135,7 @@ def create_files_from_list() -> None:
         # Define a filename that starts with my name and uses this subject taught name
         filename: str = f"tmims71_{subject_taught.lower().replace(' ', '_')}.txt"
         # Define the path for my new file
-        path: Path = ROOT_DIR / filename
+        path: Path = DATA_DIR / filename
         # Define some content to put in the new file
         content: str = f"Here is my subject taught data for: '{subject_taught}'\n"
         # Call the provided helper function to write the file and log it
@@ -180,7 +181,7 @@ def create_files_using_list_comprehension() -> None:
         # Define a file name that starts with my name and uses this favorite name
         filename: str = f"tmims71_{favorite}.txt"
         # Define the path for my new file
-        path: Path = ROOT_DIR / filename
+        path: Path = DATA_DIR / filename
         # Define some content to put in the new file
         content: str = f"Here is the special data about my '{favorite}'\n"
         # Call the provided helper function to write the file and log it
@@ -219,7 +220,7 @@ def create_files_periodically() -> None:
         # Use 02d formatting for leading zeros and two digits
         filename: str = f"tmims71_{i:02d}.txt"
         # Define the path for my new file
-        path: Path = ROOT_DIR / filename
+        path: Path = DATA_DIR / filename
         # Define some content to put in the new file
         content: str = f"Periodic file creation - file number: {i}\n"
         # Call the provided helper function to write the file and log it
@@ -237,7 +238,7 @@ def create_files_periodically() -> None:
         # Use 02d formatting for leading zeros and two digits
         filename: str = f"tmims71_{i:02d}.txt"
         # Define the path for my new file
-        path: Path = ROOT_DIR / filename
+        path: Path = DATA_DIR / filename
         # Define some content to put in the new file
         content: str = f"If we accidentally make an infinite loop, this will go forever... We're on file count:  {i}\n"
         # Call the provided helper function to write the file and log it
